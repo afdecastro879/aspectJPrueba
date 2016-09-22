@@ -4,7 +4,7 @@ package aspectos;
  * Created by andre on 21/09/2016.
  */
 public aspect Logger {
-    pointcut logger() : call(* co.gov.mineducacion.spadies..*(..));
+    pointcut logger() : call(* co.example..*(..));
 
     before() : logger() {
         System.out.println("#### Signatura: "+thisJoinPointStaticPart.getSignature());

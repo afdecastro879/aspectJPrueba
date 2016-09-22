@@ -2,7 +2,7 @@
  * @author Copyright (c) 2008,2013, Oracle and/or its affiliates. All rights reserved.
  *  
  */
-package co.gov.mineducacion.spadies;
+package com.example;
 
 import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;

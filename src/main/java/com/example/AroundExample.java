@@ -1,4 +1,4 @@
-package co.gov.mineducacion.spadies;
+package com.example;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -11,10 +11,10 @@ import org.aspectj.lang.annotation.Pointcut;
 @Aspect
 public class AroundExample {
 
-    @Pointcut("execution(* co.gov.mineducacion..*(..))")
+    @Pointcut("execution(* co.example..*(..))")
     public void deposit(){};
 
-    @Around("co.gov.mineducacion.spadies.AroundExample.deposit()")
+    @Around("com.example.AroundExample.deposit()")
     public Object doBasicProfiling(ProceedingJoinPoint pjp) throws Throwable {
         // start stopwatch
         Object retVal = pjp.proceed();
