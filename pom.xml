@@ -45,8 +45,6 @@
                 <version>2.1.1</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
-                    <target>1.8</target>
-                    <source>1.8</source>
                 </configuration>
             </plugin>
             <plugin>
