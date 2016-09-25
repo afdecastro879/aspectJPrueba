@@ -61,7 +61,6 @@
                     <complianceLevel>${java.source-target.version}</complianceLevel>
                     <encoding>UTF-8</encoding>
                     <verbose>true</verbose>
-                    <aspectDirectory>src/java/aspectos</aspectDirectory>
                     <!--<sources>
                         <source>
                             <basedir>src/main/java</basedir>
@@ -71,8 +70,6 @@
                             </includes>
                         </source>
                     </sources>-->
-                    <outputDirectory>${project.reporting.outputDirectory}/aspectj-report</outputDirectory>
-
                 </configuration>
                 <executions>
                     <execution>
