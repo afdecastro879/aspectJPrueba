@@ -11,7 +11,7 @@ import org.aspectj.lang.annotation.Pointcut;
 @Aspect
 public class AroundExample {
 
-    @Pointcut("execution(* co.example..*(..))")
+    @Pointcut("execution(* com.example..*(..))")
     public void deposit(){};
 
     @Around("com.example.AroundExample.deposit()")
